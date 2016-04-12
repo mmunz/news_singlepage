@@ -1,5 +1,5 @@
 {
-    "name": "news-singlepage",
+    "name": "c1/news-singlepage",
     "type": "typo3-cms-extension",
     "version": "0.0.1",
     "description": "Extends tx_news with a field to link to a single page uid for detail view content.",
