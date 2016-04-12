@@ -6,19 +6,20 @@ $tempColumns = Array(
     "single_content_pid" => Array(
         "exclude" => 1,
         "label" => "LLL:EXT:news_singlepage/Resources/Private/Language/locallang_db.xlf:single_content_pid",
-        "config" => Array(
-            'type' => 'select',
-            'foreign_table' => 'pages',
-            'size' => 20,
-            'renderType' => 'selectTree',
-            'treeConfig' => array(
-                'expandAll' => true,
-                'parentField' => 'pid',
-                'appearance' => array(
-                    'showHeader' => TRUE,
-                    'maxLevels' => 20,
-                ),
+        'config' => array(
+            'type' => 'group',
+            'internal_type' => 'db',
+            'allowed' => 'pages',
+            'size' => '1',
+            'maxitems' => '1',
+            'minitems' => '0',
+            'show_thumbs' => '1',
+            'wizards' => array(
+                'suggest' => array(
+                    'type' => 'suggest'
+                )
             ),
+            'default' => 0
         )
     ),
 );
