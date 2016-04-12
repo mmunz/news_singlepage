@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-04-11T11:48:25Z" product-name="news_singlepage">
+		<header/>
+		<body>
+			<trans-unit id="single_content_pid" xml:space="preserve">
+				<source>Page to use for single views content.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

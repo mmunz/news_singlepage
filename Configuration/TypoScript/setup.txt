@@ -1,0 +1,18 @@
+plugin.tx_news {
+    persistence {
+        classes {
+            GeorgRinger\News\Domain\Model\News {
+                subclasses {
+                    0 = C1\NewsSinglepage\Domain\Model\NewsDefault
+                }
+            }
+            C1\NewsSinglepage\Domain\Model\NewsDefault {
+                mapping {
+                        recordType = 0
+                        tableName = tx_news_domain_model_news
+                }
+            }
+        }
+    }
+}
+
