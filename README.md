@@ -1,7 +1,7 @@
 # news_singlepage
 Extends tx_news (TYPO3) with a field to link to a single page uid for detail view content.
 
-This makes it possible to create more spohisticated detail views.
+This makes it possible to create more sophisticated detail views.
 
 # Installation
 Install the extension and add its static TypoScript.
