@@ -11,15 +11,11 @@ $EM_CONF[$_EXTKEY] = array(
     'author' => 'Manuel Munz',
     'author_email' => 't3dev@comuno.net',
     'state' => 'alpha',
-    'internal' => '',
-    'uploadfolder' => FALSE,
-    'createDirs' => '',
-    'clearCacheOnLoad' => TRUE,
-    'version' => '0.0.1',
+    'clearCacheOnLoad' => true,
+    'version' => '0.1.0',
     'constraints' => array(
         'depends' => array(
-            'typo3' => '7.6.0-7.6.99',
-            'news' => '4.2.0-4.9.9'
+            'typo3' => '10.4.6-10.4.99'
         ),
         'conflicts' => array(
         ),

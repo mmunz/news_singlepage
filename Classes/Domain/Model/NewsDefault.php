@@ -2,7 +2,8 @@
 
 namespace C1\NewsSinglepage\Domain\Model;
 
-class NewsDefault extends \GeorgRinger\News\Domain\Model\News {
+use GeorgRinger\News\Domain\Model\News;
+class NewsDefault extends News {
 
     /**
      * the single content pid

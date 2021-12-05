@@ -1,26 +1,25 @@
 {
-    "name": "c1/news-singlepage",
-    "type": "typo3-cms-extension",
-    "version": "0.0.1",
-    "description": "Extends tx_news with a field to link to a single page uid for detail view content.",
-    "keywords": [
-        "typo3",
-        "TYPO3 CMS",
-	"news",
-	"tx_news"
-    ],
-    "homepage": "https://github.com/mmunz/news_singlepage/",
-    "license": "GPL-2.0+",
-    "authors": [
-        {
-            "name": "Manuel Munz",
-            "email": "t3dev@comuno.net",
-            "role": "Developer"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "C1\\NewsSinglepage\\": "Classes"
-        }
+  "name": "c1/news-singlepage",
+  "type": "typo3-cms-extension",
+  "description": "Extends tx_news with a field to link to a single page uid for detail view content.",
+  "keywords": [
+    "typo3",
+    "TYPO3 CMS",
+    "news",
+    "tx_news"
+  ],
+  "homepage": "https://github.com/mmunz/news_singlepage/",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Manuel Munz",
+      "email": "t3dev@comuno.net",
+      "role": "Developer"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "C1\\NewsSinglepage\\": "Classes"
+    }
+  }
 }
