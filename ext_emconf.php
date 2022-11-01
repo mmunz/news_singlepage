@@ -12,10 +12,10 @@ $EM_CONF[$_EXTKEY] = array(
     'author_email' => 't3dev@comuno.net',
     'state' => 'alpha',
     'clearCacheOnLoad' => true,
-    'version' => '0.1.0',
+    'version' => '0.2.0',
     'constraints' => array(
         'depends' => array(
-            'typo3' => '10.4.6-10.4.99'
+            'typo3' => '11.5.0-11.5.99'
         ),
         'conflicts' => array(
         ),
