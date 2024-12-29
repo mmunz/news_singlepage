@@ -4,19 +4,16 @@ Extends tx_news (TYPO3) with a field to link to a single page uid for detail vie
 This makes it possible to create more sophisticated detail views.
 
 # Installation
-Install the extension and add its static TypoScript.
+Install the extension via composer or the TYPO3 Extension Manager.
 
 ## Usage
 Simply select a page in the news entry where content records are stored and
-render them in your news detail template, e.g. using vhs:
+render them in your news detail template, e.g. using lib.dynamicContent:
 
 ```
-{namespace v=FluidTYPO3\Vhs\ViewHelpers}
-<f:if condition="{newsItem.singleContentPid}">
-    <v:content.render column="0" pageUid="{newsItem.singleContentPid}" render="1">
-        <!-- tag content - may be ignored! -->
-    </v:content.render>
-</f:if>
+    <f:if condition="{newsItem.singleContentPid}">
+        <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '0', pageUid: newsItem.singleContentPid}" />
+    </f:if>
 ```
 
 By using different columns on the single detail page you can render the content in different

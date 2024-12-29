@@ -1,9 +1,5 @@
 <?php
 
-/* * *************************************************************
- * Extension Manager/Repository config file for ext: "news_singlepage"
- *  * ************************************************************* */
-
 $EM_CONF[$_EXTKEY] = array(
     'title' => 'news_singlepage',
     'description' => 'Extends tx_news with a field to link to a single page uid for detail view content.',
@@ -11,11 +7,10 @@ $EM_CONF[$_EXTKEY] = array(
     'author' => 'Manuel Munz',
     'author_email' => 't3dev@comuno.net',
     'state' => 'alpha',
-    'clearCacheOnLoad' => true,
-    'version' => '0.2.0',
+    'version' => '1.0.0',
     'constraints' => array(
         'depends' => array(
-            'typo3' => '11.5.0-11.5.99'
+            'typo3' => '13.4.0-13.4.99'
         ),
         'conflicts' => array(
         ),

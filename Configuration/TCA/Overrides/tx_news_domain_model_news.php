@@ -2,8 +2,6 @@
 
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
-defined('TYPO3_MODE') or die();
-
 call_user_func(function () {
     $tempColumns = array(
         "single_content_pid" => array(
@@ -11,7 +9,6 @@ call_user_func(function () {
             "label" => "LLL:EXT:news_singlepage/Resources/Private/Language/locallang_db.xlf:single_content_pid",
             'config' => array(
                 'type' => 'group',
-                'internal_type' => 'db',
                 'allowed' => 'pages',
                 'size' => '1',
                 'maxitems' => '1',

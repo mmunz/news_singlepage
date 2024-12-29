@@ -5,29 +5,14 @@ namespace C1\NewsSinglepage\Domain\Model;
 use GeorgRinger\News\Domain\Model\News;
 
 class NewsDefault extends News {
+    protected int $singleContentPid = 0;
 
-    /**
-     * the single content pid
-     * @var int
-     */
-    protected $singleContentPid;
-
-    /**
-     * Returns an array of orderings created from a given demand object.
-     *
-     * @param string $singleContentPid
-     * @return void
-     */
-    public function setSingleContentPid($singleContentPid) {
+    public function setSingleContentPid(int $singleContentPid): void
+    {
         $this->singleContentPid = $singleContentPid;
     }
 
-    /**
-     * Get new field
-     *
-     * @return string
-     */
-    public function getSingleContentPid() {
+    public function getSingleContentPid(): int {
         return $this->singleContentPid;
     }
 }
