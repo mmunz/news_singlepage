@@ -7,10 +7,11 @@ $EM_CONF[$_EXTKEY] = array(
     'author' => 'Manuel Munz',
     'author_email' => 't3dev@comuno.net',
     'state' => 'alpha',
-    'version' => '1.0.0',
+    'version' => '1.1.0',
     'constraints' => array(
         'depends' => array(
-            'typo3' => '13.4.0-13.4.99'
+            'typo3' => '13.4.0-14.3.99',
+            'news' => '12.3.0-14.99.99'
         ),
         'conflicts' => array(
         ),

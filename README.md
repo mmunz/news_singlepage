@@ -3,6 +3,9 @@ Extends tx_news (TYPO3) with a field to link to a single page uid for detail vie
 
 This makes it possible to create more sophisticated detail views.
 
+# Requirements
+TYPO3 v13.4 or v14.3 with EXT:news 12.3+ or 14.
+
 # Installation
 Install the extension via composer or the TYPO3 Extension Manager.
 
